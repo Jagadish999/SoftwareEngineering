@@ -1,0 +1,319 @@
+.main-page-contains {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.search-area {
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.product-card {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+
+    min-width: 350px;
+    min-height: 350px;
+}
+
+.product-card img {
+    max-width: 300px;
+    max-height: 300px;
+
+    width: auto;
+    height: auto;
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buy-button,
+.info-button {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+}
+
+.buy-button:hover,
+.info-button:hover {
+    background-color: #0056b3; 
+}
+
+.fa-shopping-cart,
+.fa-info-circle {
+    margin-right: 5px; 
+}
+
+.search-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.search-input,
+.filter-select {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.search-input input {
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0; 
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+.search-button i {
+    font-size: 18px;
+}
+
+.filter-select label {
+    font-weight: bold;
+    margin-right: 5px; 
+}
+
+.filter-select select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+/*___________________________________________________________*/
+
+.custom-alert, .matching-player-infos {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .custom-alert-content, .finding-player {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+
+  .custom-alert-content img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.custom-alert-content img:hover {
+    transform: scale(1.2);
+}
+
+.blure{
+    filter: blur(12px);
+}
+
+
+/*__________________________________________________________________*/
+
+.product-Infos {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    color: #fff;
+    padding: 0 10px;
+}
+
+/* Style scrollbars for WebKit-based browsers (Chrome, Safari, etc.) */
+.product-Infos::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+}
+
+.product-Infos::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+.product-Infos::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+}
+
+
+/*____________________________________________________________________________________*/
+
+.cross-holder {
+    display: flex;
+    justify-content: flex-end; /* Align content to the right side */
+    align-items: center; /* Vertically center content */
+    
+}
+
+.btn-cross {
+    font-size: 34px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+/*__________________________________________________________________________________*/
+.Product-details-table{
+    padding: 0 30px;
+}
+
+.Product-details-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    color: #ccc;
+}
+
+.Product-details-table th, .Product-details-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+/*_________________________________________________________________________________________*/
+/* .main-page-contains{
+    filter: blur(12px);
+} */
+
+/*_____________________________________________________________________________*/
+
+.place-bid {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    color: #fff;
+    padding: 0 10px;
+}
+
+/* Style scrollbars for WebKit-based browsers (Chrome, Safari, etc.) */
+.place-bid::-webkit-scrollbar {
+    width: 12px;
+}
+
+.place-bid::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+}
+
+.place-bid::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.cross-holder {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn-cross {
+    font-size: 34px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.bid-form, .contact-form {
+    padding: 0 30px;
+}
+
+.bid-form input, .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #ccc;
+    outline: none;
+}
+
+.bid-form h2, .contact-form h2 {
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.place-bid button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    margin-left: auto; /* Add this to center the button horizontally */
+    margin-right: auto; /* Add this to center the button horizontally */
+    display: block; /* Ensure the button takes full width of its container */
+}
+
+.place-bid button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+

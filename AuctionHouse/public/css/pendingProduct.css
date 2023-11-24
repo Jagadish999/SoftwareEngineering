@@ -1,0 +1,80 @@
+.main-page-contains h1 {
+    font-size: 24px;
+    color: #fff;
+    background-color: #1f2021;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+/* Style the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+}
+
+/* Style the table header */
+.table thead {
+    background-color: #f2f2f2;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the table image column */
+.table td img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: 0 auto; 
+}
+
+/* Style the table category column */
+.table td:nth-child(2) {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Style the table bid amount column */
+.table td:nth-child(3) {
+    font-weight: bold;
+    color: #28a745; 
+}
+
+/* Style the table status column */
+.table td:nth-child(4) {
+    font-weight: bold;
+    color: #dc3545; 
+}
+
+
+.delete-button {
+    display: inline-block;
+    background-color: #dc3545; 
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold; 
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+
+.status-cell {
+    color: #28a745;
+    padding: 5px 10px;
+}

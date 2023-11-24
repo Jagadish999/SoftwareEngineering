@@ -1,0 +1,55 @@
+.main-page-contains h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:  #333333; 
+    color: #fff; 
+    padding: 10px; 
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    padding: 10px;
+}
+
+.category-button,
+.add-product-button,
+.delete-button {
+    display: inline-block;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.add-product-button {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.delete-button {
+    background-color: #F44336;
+    color: #fff;
+}

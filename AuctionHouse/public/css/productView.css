@@ -1,0 +1,85 @@
+.main-page-contains h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:  #333333; 
+    color: #fff; 
+    padding: 10px; 
+    border-radius: 5px;
+}
+
+.main-page-contains table img{
+    height: 200px;
+    width: 200px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    padding: 10px;
+}
+
+/*____________________________________________________________________________*/
+.status-toggle {
+    background-color: #007BFF; /* Blue background for "Archive" */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px; /* Add margin for spacing */
+    display: flex;
+    align-items: center; /* Center icon vertically */
+}
+
+/* Style the archive button */
+.status-toggle.archive {
+    background-color: #f44336; /* Red background for "Archive" */
+}
+
+/* Style the show button */
+.status-toggle.show {
+    background-color: #28a745; /* Green background for "Show" */
+}
+
+/* Style the icon inside the button */
+.status-toggle i {
+    margin-right: 8px; /* Add space between icon and text */
+}
+
+
+.delete-button {
+    margin-top: 12px;
+    background-color: #dc3545; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex; 
+    align-items: center; 
+}
+
+.delete-button i {
+    margin-right: 5px; 
+}

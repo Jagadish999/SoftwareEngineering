@@ -1,0 +1,97 @@
+.main-page-contains h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:  #333333; 
+    color: #fff; 
+    padding: 10px; 
+    border-radius: 5px;
+}
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Table header styles */
+.table thead {
+    background-color: #f2f2f2;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Image column style */
+.table td img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Customer details column style */
+.table td:nth-child(3) ul {
+    list-style: none;
+    padding: 0;
+}
+
+.table td:nth-child(3) ul li {
+    margin-bottom: 5px;
+}
+
+/* Highest bid column style */
+.table td:nth-child(2) {
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Status column style */
+.table td:nth-child(4) {
+    font-weight: bold;
+    color: #dc3545;
+}
+
+/* No bids message style */
+.no-bids-message {
+    font-weight: bold;
+    color: #007BFF;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Style the buttons */
+.btn-approve,
+.btn-reject {
+    background-color: #28a745; /* Green for approve */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-approve:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.btn-reject {
+    background-color: #dc3545; /* Red for reject */
+}
+
+.btn-reject:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Style the Font Awesome icons inside the buttons */
+.btn-approve i,
+.btn-reject i {
+    margin-right: 5px;
+}
+
